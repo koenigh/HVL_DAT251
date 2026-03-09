@@ -1,0 +1,10 @@
+[
+{"customer":"BigCo","performances":[{"playId":"hamlet","audience":55},{"playId":"as-like","audience":35},{"playId":"othello","audience":40}]},
+{"customer":"Pub22","performances":[{"playId":"hamlet","audience":70},{"playId":"as-like","audience":0},{"playId":"othello","audience":0}]},
+{"customer":"Pub23","performances":[{"playId":"hamlet","audience":0},{"playId":"as-like","audience":45},{"playId":"othello","audience":0}]},
+{"customer":"Pub24","performances":[{"playId":"hamlet","audience":0},{"playId":"as-like","audience":0},{"playId":"othello","audience":31}]},
+{"customer":"Pierre's","performances":[{"playId":"hamlet","audience":0},{"playId":"as-like","audience":0},{"playId":"othello","audience":0}]},
+{"customer":"Pierre's","performances":[]},
+{"customer":"Max","performances":[{"playId":"rats","audience":10},{"playId":"as-like","audience":0}]},
+{"customer":"Max","performances":[{"playId":"hammlet","audience":10},{"playId":"as-like","audience":0}]}
+]

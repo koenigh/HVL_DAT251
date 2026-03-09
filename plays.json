@@ -1,0 +1,5 @@
+{"othello":{"name":"Othello","type":"tragedy"},
+"as-like":{"name":"As you like it","type":"comedy"},
+"hamlet":{"name":"Hamlet","type":"tragedy"}, 
+"rats":{"name":"The rats have escaped","type":"tragicComedy"}
+}

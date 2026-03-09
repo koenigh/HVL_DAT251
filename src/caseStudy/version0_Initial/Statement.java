@@ -40,10 +40,10 @@ public class Statement {
 			if(play.getType().equals("comedy")) volumeCredits += currentPerformance.getAudience() / 5;
 	// Print line for this performance
 			result 	+= play.getName() + ": " + ((float)thisAmount / 100) 
-					+ " €, (" + currentPerformance.getAudience() + " visitors).\n";
+					+ " â‚¬, (" + currentPerformance.getAudience() + " visitors).\n";
 			totalAmount += thisAmount;
 		}
-		result += "Total Claim: " + (float)totalAmount/100 + " €\n";
+		result += "Total Claim: " + (float)totalAmount/100 + " â‚¬\n";
 		result += "You earned " + volumeCredits + " credits";
 		return result;
 	}
