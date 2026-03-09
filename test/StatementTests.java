@@ -11,7 +11,7 @@ import caseStudy.immutable.Invoice;
 import caseStudy.immutable.Play;
 import caseStudy.immutable.UnknownPlayIdException;
 import caseStudy.immutable.UnknownPlayTypeException;
-import caseStudy.version0_Initial.Statement;
+import caseStudy.version1_LoopSplitting.*;
 
 class StatementTests {
 	private static JSONFileReader reader;
