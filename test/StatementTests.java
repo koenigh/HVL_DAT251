@@ -89,13 +89,13 @@ class StatementTests {
 				+ "You earned 0 credits";
 		assertEquals(expected, statement.createStatement(invoices.get(5), plays));	
 	}
-// An unexpected test case: 
+// An unexpected case: 
 //	@Test
 	void test6() throws Exception{
 		assertTrue(!(statement.createStatement(invoices.get(7), plays).isEmpty())); // We did not recognize the typo in the JSON file
 	}
 /*========= Negative tests =========================== */	
-	//@Test
+	@Test
 	void test100(){
 		assertThrows(UnknownPlayTypeException.class, ()->statement.createStatement(invoices.get(6), plays));
 	}
